@@ -1,0 +1,18 @@
+.App {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.App .container {
+  flex-grow: 1;
+  padding: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 2px solid var(--border-color);
+  border-top-left-radius: 1em;
+  min-height: 80vh;
+  background-color: var(--bg2-color);
+  color: var(--text-primary);
+}
