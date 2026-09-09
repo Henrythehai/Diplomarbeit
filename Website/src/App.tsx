@@ -12,6 +12,7 @@ import React from 'react';
 //styles
 import './App.css';
 import {Sidebar} from "./components/Sidebar";
+import {ToastNotificationCenter} from "./components/Notifications/ToastNotificationCenter";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
+      <ToastNotificationCenter/>
     </div>
   );
 }

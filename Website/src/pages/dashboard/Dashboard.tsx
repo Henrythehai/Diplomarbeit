@@ -7,6 +7,7 @@ import {mockErrorCodes} from "../../types/ErrorCodes";
 import {SimpleDataList} from "../../components/DataDisplays/SimpleDataList";
 import {mockDataList} from "../../types/DataList";
 import {LineGraphDisplay} from "../../components/DataDisplays/LineGraphDisplay";
+import {mockLineGraphData} from "../../types/LineGraph";
 
 export const Dashboard = () => {
     return (
@@ -28,7 +29,7 @@ export const Dashboard = () => {
 
 
                 <Card className="card-5" title={"Card 5"}>
-                    <LineGraphDisplay width={100} height={100} />
+                    <LineGraphDisplay dataSet={mockLineGraphData} />
 
                 </Card>
                 <Card className="card-6" title={"Card 6"}>
