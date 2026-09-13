@@ -17,10 +17,10 @@ export const Sidebar = () => {
                     <h6>admin@kangaroo.com</h6>
                 </div>
 
-                <div className="searchbar">
-                    <span className="search-icon">⌕</span>
-                    <input type="text" placeholder="Search"/>
-                </div>
+                {/*<div className="searchbar">*/}
+                {/*    <span className="search-icon">⌕</span>*/}
+                {/*    <input type="text" placeholder="Search"/>*/}
+                {/*</div>*/}
 
                 <div className="top-section">
                     <div className="sidebar-divider"/>

@@ -4,22 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12acd027-a80e-4254-bff3-e4985bc32bcd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Website/src/assets/img/notifications/cancel_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/assets/img/notifications/info_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/assets/img/notifications/success_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/assets/img/notifications/warning_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCenter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCenter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/types/LineGraph.ts" afterDir="false" />
+    <list default="true" id="12acd027-a80e-4254-bff3-e4985bc32bcd" name="Changes" comment="- different display types added (linegraph display)&#10;- Toastnotification system implemented">
+      <change afterPath="$PROJECT_DIR$/Website/src/assets/img/filter_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabViewButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabViewButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabViewPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabViewPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/src/context/ThemeContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/src/hooks/useTheme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/components/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/src/components/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/components/DataDisplays/LineGraphDisplay.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/DataDisplays/LineGraphDisplay.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/components/DataDisplays/LineGraphDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/DataDisplays/LineGraphDisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCenter.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCenter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/components/Sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/pages/Settings/Settings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/pages/Settings/Settings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/pages/dashboard/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/pages/dashboard/Dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/src/pages/dashboard/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/pages/dashboard/Dashboard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,27 +69,29 @@
   <component name="ProjectId" id="3IwpY8ArQnHSfx09BZxTl43lYEt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Rafael Ortner/WebstormProjects/Diplomarbeit/Website/src/assets/img/notifications",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\Rafael Ortner\\WebstormProjects\\Diplomarbeit\\Website\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafael Ortner/WebstormProjects/Diplomarbeit/Website/src/assets/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Rafael Ortner\\WebstormProjects\\Diplomarbeit\\Website\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -95,6 +103,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael Ortner\WebstormProjects\Diplomarbeit\Website\src\assets\img" />
       <recent name="C:\Users\Rafael Ortner\WebstormProjects\Diplomarbeit\Website\src\assets\img\notifications" />
     </key>
   </component>
@@ -143,12 +152,41 @@
       <workItem from="1788862726625" duration="1702000" />
       <workItem from="1788947436972" duration="997000" />
       <workItem from="1788948456904" duration="7201000" />
-      <workItem from="1788975506949" duration="3769000" />
+      <workItem from="1788975506949" duration="4140000" />
+      <workItem from="1789026186140" duration="18075000" />
+      <workItem from="1789149491721" duration="82000" />
+      <workItem from="1789149587337" duration="5571000" />
+      <workItem from="1789200501668" duration="6168000" />
+      <workItem from="1789211481678" duration="4030000" />
     </task>
+    <task id="LOCAL-00001" summary="- different display types added (linegraph display)&#10;- Toastnotification system implemented">
+      <option name="closed" value="true" />
+      <created>1788979659237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788979659237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- different display types added (linegraph display)&#10;- Toastnotification system implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="- different display types added (linegraph display)&#10;- Toastnotification system implemented" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
