@@ -1,9 +1,10 @@
 //styles
 import './NumberRangeDisplay.css'
+import {useVehicleData} from "../../context/DataContext";
+import {useMemo} from "react";
 
 type NumberRangeDisplay = {
-    value: number,
-    unit: string,
+    datakey: string,
     lowerBound: number,
     higherBound: number
 }
@@ -30,17 +31,23 @@ function Gauge(value: number, max: number) {
     );
 }
 
-export const NumberRangeDisplay = ({value, unit, lowerBound, higherBound}: NumberRangeDisplay) => {
+export const NumberRangeDisplay = ({ datakey, lowerBound, higherBound}: NumberRangeDisplay) => {
+    const { liveData } = useVehicleData();
+
+    const point = liveData[datakey];
+
+
+
     return (
         <div className="display-container">
             <div className="value">
-                {value}
+                {point?.value}
             </div>
             <div className="unit">
-                {unit}
+                {point?.unit}
             </div>
             <div className="rangeDisplay">
-                {Gauge(value, higherBound)}
+                {Gauge(Number(point?.value), higherBound)}
             </div>
             <div className="bounds">
                 <div className="lowerBound">

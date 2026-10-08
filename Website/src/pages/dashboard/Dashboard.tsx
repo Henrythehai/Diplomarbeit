@@ -38,8 +38,7 @@ const initialCards = [
         isVisible: true,
         content: (
             <NumberRangeDisplay
-                value={2450}
-                unit="rpm"
+                datakey="rpm"
                 higherBound={8000}
                 lowerBound={0}
             />
@@ -51,8 +50,7 @@ const initialCards = [
         isVisible: true,
         content: (
             <NumberRangeDisplay
-                value={2450}
-                unit="km/h"
+                datakey="speed"
                 higherBound={240}
                 lowerBound={0}
             />
@@ -64,8 +62,7 @@ const initialCards = [
         isVisible: true,
         content: (
             <NumberRangeDisplay
-                value={2450}
-                unit="°C"
+                datakey="coolant"
                 higherBound={150}
                 lowerBound={0}
             />
@@ -84,8 +81,7 @@ const initialCards = [
         isVisible: true,
         content: (
             <NumberRangeDisplay
-                value={2450}
-                unit="V"
+                datakey="engine_load"
                 higherBound={20}
                 lowerBound={0}
             />
@@ -258,4 +254,3 @@ export const Dashboard = () => {
         </div>
     );
 };
-

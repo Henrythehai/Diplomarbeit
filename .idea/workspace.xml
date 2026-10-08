@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12acd027-a80e-4254-bff3-e4985bc32bcd" name="Changes" comment="- different display types added (linegraph display)&#10;- Toastnotification system implemented">
-      <change afterPath="$PROJECT_DIR$/Website/src/assets/img/filter_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabViewButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabViewButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabViewPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/components/TabComponent/TabViewPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/context/ThemeContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/src/hooks/useTheme.ts" afterDir="false" />
+    <list default="true" id="12acd027-a80e-4254-bff3-e4985bc32bcd" name="Changes" comment="- redone dashboard layout&#10;- added a list layout for the dashboard&#10;- added a Filter to display only some cards&#10;- drag and drop for cards on the dashboard added">
+      <change afterPath="$PROJECT_DIR$/Website/src/Services/WebSocketService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/src/Services/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/src/context/DataContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/components/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/components/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCenter.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Notifications/ToastNotificationCenter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/components/Sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/src/components/DataDisplays/NumberRangeDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/components/DataDisplays/NumberRangeDisplay.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/pages/Settings/Settings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/pages/Settings/Settings.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/src/pages/dashboard/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/pages/dashboard/Dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/src/pages/dashboard/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Website/src/pages/dashboard/Dashboard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -79,7 +65,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafael Ortner/WebstormProjects/Diplomarbeit/Website/src/assets/img&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafael Ortner/WebstormProjects/Diplomarbeit/Website/src/context&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -103,6 +89,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael Ortner\WebstormProjects\Diplomarbeit\Website\src\context" />
       <recent name="C:\Users\Rafael Ortner\WebstormProjects\Diplomarbeit\Website\src\assets\img" />
       <recent name="C:\Users\Rafael Ortner\WebstormProjects\Diplomarbeit\Website\src\assets\img\notifications" />
     </key>
@@ -157,7 +144,18 @@
       <workItem from="1789149491721" duration="82000" />
       <workItem from="1789149587337" duration="5571000" />
       <workItem from="1789200501668" duration="6168000" />
-      <workItem from="1789211481678" duration="4030000" />
+      <workItem from="1789211481678" duration="4970000" />
+      <workItem from="1789377063670" duration="671000" />
+      <workItem from="1789985116160" duration="702000" />
+      <workItem from="1790428241711" duration="216000" />
+      <workItem from="1790577353886" duration="1204000" />
+      <workItem from="1790757936032" duration="2020000" />
+      <workItem from="1791197251044" duration="661000" />
+      <workItem from="1791279187101" duration="1175000" />
+      <workItem from="1791286757424" duration="1104000" />
+      <workItem from="1791289135483" duration="1094000" />
+      <workItem from="1791294090897" duration="5988000" />
+      <workItem from="1791380589041" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="- different display types added (linegraph display)&#10;- Toastnotification system implemented">
       <option name="closed" value="true" />
@@ -167,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788979659237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- redone dashboard layout&#10;- added a list layout for the dashboard&#10;- added a Filter to display only some cards&#10;- drag and drop for cards on the dashboard added">
+      <option name="closed" value="true" />
+      <created>1789290684674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789290684674</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +192,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- different display types added (linegraph display)&#10;- Toastnotification system implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="- different display types added (linegraph display)&#10;- Toastnotification system implemented" />
+    <MESSAGE value="- redone dashboard layout&#10;- added a list layout for the dashboard&#10;- added a Filter to display only some cards&#10;- drag and drop for cards on the dashboard added" />
+    <option name="LAST_COMMIT_MESSAGE" value="- redone dashboard layout&#10;- added a list layout for the dashboard&#10;- added a Filter to display only some cards&#10;- drag and drop for cards on the dashboard added" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

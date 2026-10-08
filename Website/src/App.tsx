@@ -15,6 +15,7 @@ import {Sidebar} from "./components/Sidebar";
 import {ToastNotificationCenter} from "./components/Notifications/ToastNotificationCenter";
 
 function App() {
+
   return (
     <div className="App">
       <BrowserRouter>
